@@ -1,0 +1,45 @@
+---
+componentName: archimedeaos
+
+welcomeStyleCalamares: false
+welcomeExpandingLogo: true
+
+windowExpanding: normal
+windowSize: 900px,600px
+windowPlacement: center
+
+sidebar: widget
+navigation: widget
+
+strings:
+    productName:         "ArchimedeaOS"
+    shortProductName:    "AOS"
+    version:             "2026"
+    shortVersion:        "2026"
+    versionedName:       "ArchimedeaOS 2026"
+    shortVersionedName:  "AOS 2026"
+    bootloaderEntryName: "ArchimedeaOS"
+    productUrl:          "https://github.com/ArchimedeaOS-Development"
+    supportUrl:          "https://github.com/ArchimedeaOS-Development"
+    knownIssuesUrl:      ""
+    releaseNotesUrl:     ""
+    donateUrl:           ""
+
+images:
+    productIcon:         "logo.png"
+    productLogo:         "logo.png"
+    productWelcome:      "logo.png"
+
+style:
+    SidebarBackground:        "#0d1117"
+    SidebarText:              "#c9d1d9"
+    SidebarTextCurrent:       "#ffffff"
+    SidebarBackgroundCurrent: "#1f6feb"
+
+slideshow:     "show.qml"
+slideshowAPI:  2
+
+uploadServer:
+    type:      "none"
+    url:       ""
+    sizeLimit: -1

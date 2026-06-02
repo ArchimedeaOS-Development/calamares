@@ -1,0 +1,43 @@
+/* ArchimedeaOS Calamares stylesheet */
+
+#sidebarApp {
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+#sidebarMenuApp {
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+QDialog {
+    background-color: #161b22;
+    color: #c9d1d9;
+}
+
+QPushButton#nextButton,
+QPushButton#installButton {
+    background-color: #1f6feb;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 6px 16px;
+    font-weight: bold;
+}
+
+QPushButton#nextButton:hover,
+QPushButton#installButton:hover {
+    background-color: #388bfd;
+}
+
+QPushButton#backButton,
+QPushButton#cancelButton {
+    background-color: #21262d;
+    color: #c9d1d9;
+    border-radius: 6px;
+    padding: 6px 16px;
+}
+
+QPushButton#backButton:hover,
+QPushButton#cancelButton:hover {
+    background-color: #30363d;
+}
